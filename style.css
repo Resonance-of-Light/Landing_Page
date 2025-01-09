@@ -1,0 +1,180 @@
+/* Check body */
+body{
+	font-style: "Roboto", "arial", serif;
+	margin: 0px;
+}
+
+.HHT{
+	background: #1F2937;
+	padding-bottom: 110px;
+}
+
+#Header, .Hero{
+	margin: auto;
+	width: 50%;
+}
+
+#Header {
+	display:flex;
+	justify-content: space-between;
+	padding-top: 16px;
+	padding-bottom: 110px;
+}
+
+#Header .Logo{
+	font-size: 24px;
+	color: #F9FAF8;
+}
+
+#Header a{
+	font-size: 18px;
+	color: #E5E7EB;
+	margin: 0px 10px;
+}
+
+.Hero{
+	display: flex;
+	justify-content: center;
+	gap: 50px;	
+}
+
+.Hero_text{
+}
+
+.HMT{
+	font-size: 48px;
+	font-weight: 900;
+	color: #F9FAF8;
+}
+
+.HST{
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+button{
+	background: #3882F6;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 20px;
+	margin-top: 12px;
+	color: #F9FAF8;
+	font-weight: 900;
+}
+
+.Hero_image{
+	/*
+	font-size: 18px;
+    color: #F9FAF8;
+    background: #E5E7EB;
+    text-align: center;
+    padding: 0px 64px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    */
+}
+
+.section_2{
+	padding-bottom: 100px;
+}
+
+.IHT{
+	font-size: 36px;
+	font-weight: 900;
+	color: #1F2937;
+	text-align: center;
+	padding: 35px 0px;
+}
+
+.Images_with_subtext, .Quote_section{
+	display: flex;
+	justify-content: center;
+}
+
+.Images_with_subtext{
+	gap: 32px;
+}
+
+.iwst{
+	width: 300px;
+	text-align: center;
+}
+
+.Image{
+	/*
+	border: 5px solid #5577ff;
+	padding: 75px;
+	border-radius: 16px;
+	*/
+}
+
+.Image img{
+	width: 300px;
+	height: 300px;
+}
+
+.Quote_section{
+	background: #E5E7EB;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px;
+}	
+
+.Quote_text{
+	width: 700px;
+	font-size: 36px;
+	font-weight: light;
+	font-style: italic;
+	font-color: #1F2937;
+}
+
+.Quote_origin{
+	width: 700px;
+	text-align: right;
+	font-weight: bold;
+	font-color: #1F2937;
+	font-size: 18px;
+}
+
+.section_3{
+	margin: 100px;
+	padding: 50px 100px;
+	background: #3882F6;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+
+.Call_to_action{
+	color: #F9FAF8;
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.cta_subtext{
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.ctab{
+	color: #F9FAF8;
+	border: 2px solid #F9FAF8;
+}
+
+.ctab:hover{
+	background: #FFFFFF;
+	color: #00FF00;
+}
+
+.ctab:active{
+	background: #00FF00;
+	background: #5555FF;
+}
+
+.footer{
+	background: #1F2937;
+	color: #F9FAF8;
+	text-align: center;
+	padding: 23px;
+}
